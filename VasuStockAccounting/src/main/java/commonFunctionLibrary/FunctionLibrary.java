@@ -50,6 +50,7 @@ public class FunctionLibrary
 	{
 		driver.get(PropertyFileUtil.getValueForKey("URL"));
 		driver.manage().window().maximize();
+		System.out.println("Sample");
 	}
 	
 	public static void typeAction(WebDriver driver,String locatorType,String locatorValue, String Data)throws Throwable
